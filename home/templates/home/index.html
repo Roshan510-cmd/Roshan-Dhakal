@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -434,7 +435,7 @@
             </div>
             <div class="hero-image">
                 <div class="profile-wrapper">
-                    <img src="https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Roshan Dhakal coding" class="profile-pic">
+                    <img src="{% static "image/profile.jpeg" %}" alt="Roshan Dhakal coding" class="profile-pic">
                 </div>
                 <div class="code-snippet code-1">
                     <div class="code-line"><span class="code-keyword">class</span> <span class="code-function">Developer</span> {</div>
